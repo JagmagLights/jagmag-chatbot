@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jagmag Chat Widget</title>
+  <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-popup">Need help? Click here to chat!</div>
+
+    <div id="chat-buttons">
+      <button onclick="window.open('https://wa.me/917251000007','_blank')">
+        <img src="https://cdn.shopify.com/s/files/1/0876/6137/9869/files/Whatsapp_SVG.svg" width="24" height="24"> WhatsApp
+      </button>
+      <button onclick="window.open('https://jagmaglights.com','_blank')">
+        <img src="https://cdn.shopify.com/s/files/1/0876/6137/9869/files/Ai-chatbot.png" width="24" height="24"> AI Assistant
+      </button>
+    </div>
+  </div>
+
+  <script src="widget.js"></script>
+</body>
+</html>
